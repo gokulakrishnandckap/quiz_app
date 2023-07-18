@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./gokulquiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: linear-gradient(rgba(68, 60, 60, 0.9) , rgba(0, 0, 0, 0.6));
+}
+.main{
+    display: none;
+}
+.container1{
+    text-align: center;
+    margin: 40px;
+
+}
+p{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.questions{
+    margin-top: 50px;
+}
+.answer{
+    margin-top: 30px;
+}
+.btn{
+    margin: 0 10px 0 10px;
+    height: 50px;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 20px;
+   background-color: transparent;
+   border:1px solid white ;
+color: white ;
+}
+.nexts{
+    display: flex;
+    justify-content: space-evenly;
+}
+button.next{
+    height: 40px;
+    width: 104px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border: 0;
+
+
+}
+button.Previous {
+    height: 40px;
+    width: 104px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border: 0;
+} 
+button.submit {
+    height: 40px;
+    width: 104px;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: 20px;
+   background-color: #8aebff;
+   font-weight: bold;
+   color: white;
+   font-size: 20px; 
+    font-weight: bold;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   border: 0;
+display: none;
+}
+button.submit:hover{
+    background-color: aqua;
+}
+.active{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+ 
+}
+
+button.start {
+    margin-left: 410px;
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+}
+
+h2.count {
+    text-align: center;
+    font-size: 200px;
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.watch{
+    font-size: 30px;
+    position: relative;
+    top: 25px;
+    display: none;
+    color: white;
+}
+
+.box{
+   background-image: linear-gradient(45deg,transparent,black);
+    /* background-color: black; */
+    height: 450px;
+    margin: 50px 130px;
+    padding-top: 5px;
+
+
+}
+.evalate{
+    display: none;
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+}
+
+.Previous{
+    display: none;
+}
+.gif{
+    display: none;
+}
